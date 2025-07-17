@@ -8,7 +8,7 @@
   let cardData = [
     {
       image:
-        "https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=612x612&w=0&k=20&c=To0lhCrVmDYdSkOUOGxGsjlYe0buj_wwGCDqYhF9p2o=",
+        "https://images.stockcake.com/public/b/6/f/b6fc5bc0-d7fe-4e38-830e-4a06b60bd1a9_large/coding-coffee-break-stockcake.jpg",
       title: "Coding",
       description:
         "I love solving problems and writing code to build cool things.",
@@ -66,7 +66,7 @@
     flex-wrap: wrap;
   }
   .hobby {
-    background-color: #3498db;
+    background-color: #1b4b43;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;

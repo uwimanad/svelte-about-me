@@ -16,7 +16,7 @@
 
 <style>
   .card {
-    background-color: #fff;
+    background-color: #C4A484;
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
