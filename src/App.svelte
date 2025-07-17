@@ -1,14 +1,14 @@
 <script>
   let name = "Divine Uwimana"; // Change this to your name
   let favoriteNumber = 7; // Change this to your favorite number
-  let bio = "I am a web developer with a passion for DATA science";
-  let hobbies = ["Coding", "Badminton", "Baking"]; // List some hobbies
+  let bio = "I am a Maths and Stats major at Williams College and i have a passion for Data Science";
+  let hobbies = ["Coding", "Reading", "Baking"]; // List some hobbies
   import ImageCard from "./lib/ImageCard.svelte";
 
   let cardData = [
     {
       image:
-        "https://images.stockcake.com/public/b/6/f/b6fc5bc0-d7fe-4e38-830e-4a06b60bd1a9_large/coding-coffee-break-stockcake.jpg",
+        "https://images.stockcake.com/public/9/b/d/9bdfea98-cd9d-4071-928e-78b71cd06c49_large/coding-evening-setup-stockcake.jpg",
       title: "Coding",
       description:
         "I love solving problems and writing code to build cool things.",
@@ -29,7 +29,7 @@
 </script>
 
 <div class="container">
-  <h1>About Me</h1>
+  <h1>Welcome to my page</h1>
   <p>Hello, my name is <strong>{name}</strong>!</p>
   <p>My favorite number is <strong>{favoriteNumber}</strong>.</p>
   <p>{bio}</p>
