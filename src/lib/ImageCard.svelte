@@ -25,12 +25,6 @@
     margin: 20px;
     text-align: center;
     position : fixed;
-    display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center;     /* vertical */
-    height: 100vh;           /* full viewport height */
-    margin: 0;
-
 
   }
 
