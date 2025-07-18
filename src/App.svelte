@@ -1,7 +1,8 @@
 <script>
   let name = "Divine Uwimana"; // Change this to your name
   let favoriteNumber = 7; // Change this to your favorite number
-  let bio = "I am a Maths and Stats major at Williams College and i have a passion for Data Science";
+  let bio =
+    "I am a Maths and Stats major at Williams College and i have a passion for Data Science";
   let hobbies = ["Coding", "Reading", "Baking"]; // List some hobbies
   import ImageCard from "./lib/ImageCard.svelte";
 
@@ -36,11 +37,13 @@
 
   <h2>My Hobbies</h2>
   <h2>Some of My Favorite Things</h2>
+
   <div class="card-container">
     {#each cardData as { image, title, description }}
       <ImageCard {image} {title} {description} />
     {/each}
   </div>
+
   <div class="hobbies">
     {#each hobbies as hobby}
       <div class="hobby">{hobby}</div>
@@ -64,6 +67,7 @@
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+    padding-left: 100 px;
   }
   .hobby {
     background-color: #1b4b43;
