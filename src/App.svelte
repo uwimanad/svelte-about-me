@@ -67,7 +67,6 @@
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
-    padding-left: 100 px;
   }
   .hobby {
     background-color: #1b4b43;
